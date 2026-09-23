@@ -46,8 +46,8 @@ The PRISM build script automates the complex C++ integration natively within Car
 _The build system automatically rewrites the Geogram CMake configuration to strip out X11/OpenGL and enforce deterministic threading logic, guaranteeing a zero-config compile on any compute cluster._
 
 ```bash
-git clone [https://github.com/your-repo/Prism-rs.git](https://github.com/your-repo/Prism-rs.git)
-cd Prism-rs
+git clone [https://github.com/cea-prism/prism-rs.git](https://github.com/cea-prism/prism-rs.git)
+cd prism-rs
 
 # Cargo handles the headless C++ compilation and Rust linking automatically
 cargo build --release
